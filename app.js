@@ -20,7 +20,7 @@ app.use('/',userRouter);
 
 // home route
 app.get('/',(req, res) => {
-    res.send('Server is running ')
+    res.send('Server is On  ')
 })
 
 // route not found
