@@ -18,7 +18,7 @@ async function run() {
          
       // file downloader
       router.get('/files',(req, res) => {
-        res.download('./cv.docx')
+        res.download('./CV.pdf')
       })
 
        // post  message database
